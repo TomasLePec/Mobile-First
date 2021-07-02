@@ -103,7 +103,7 @@ header img{
 
 
 .transition{
-    background-color: white;
+    background-color: var(--off-white);
     width: 100%;
     height: 777px;
     text-align: center;
@@ -145,9 +145,96 @@ header img{
     margin-top: 24px;
 }
 
-.transition-tabla{
-    text-align: left;
-    height: 194px;
+.transition-tabla-container{
     width: 235px;
-    
+    height: 194px;
+    margin-left: calc(50% - 95px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 48px;
+}
+
+.tabla-container-tittle{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    color: #FF9536;
+    margin-left: 12px;
+}
+
+
+.tabla-monedas{
+    width: 190px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 101px 95px;
+    grid-auto-rows: 39px;
+    text-align: left;
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tabla-left{
+    padding: 10px 12px;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.936rem;
+    color: #B5B0AC;
+    margin-right: 1px;
+}
+
+.tabla-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 12px;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.694rem;
+    color: #757575;
+}
+
+.tabla-right p{
+    width: 49px;
+    height: 17px;
+}
+
+.tabla-right-decrece{
+    width: 12px;
+    height: 12px;
+    background-image: url(./assets/icons/flechaDecae.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tabla-right-crece{
+    width: 12px;
+    height: 12px;
+    background-image: url(./assets/icons/flechaIncre.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.transition-tabla-fecha{
+    display: inline-block;
+    width: 173px;
+    height: 31px;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+
+}
+
+.transition-tabla-fecha p{
+    color: var(--warm-blackPlus);
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+
 }
