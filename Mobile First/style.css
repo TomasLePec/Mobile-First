@@ -238,3 +238,119 @@ header img{
     font-family: 'Inter', sans-serif;
 
 }
+
+.beneficios{
+    width: 100%;
+    min-width: 320px;
+    height: 893px;
+    background-color: var(--warm-black);
+}
+
+.beneficios-logo{
+    width: 40.57px;
+    height: 24.01px;
+    position: relative;
+    left: calc(50% - 18.72px);
+    top: -12.05px;
+}
+
+.beneficios h4{
+    width: 288px;
+    height: 52px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: white;
+}
+
+.beneficios-subtitulo{
+    width: 288px;
+    height: 18px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.beneficios-tipos{
+    width: 288px;
+    height: 152px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 20px 22px 16px;
+    background-color: var(--warm-blackPlus);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.beneficios-tipos-titulos{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: white;
+    margin: 10px 0;
+}
+
+.beneficios-tipos-subtitulos{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
+.beneficios-tipos-logos{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#reloj{
+    background-image: url(./assets/icons/reloj.svg);
+}
+
+#ojo{
+    background-image: url(./assets/icons/ojo.svg);
+}
+
+#dinero{
+    background-image: url(./assets/icons/signo.svg);
+}
+
+#check{
+    background-image: url(./assets/icons/check.svg);
+}
+
+.comodin{
+    width: 100%;
+    min-width: 320px;
+    height: 387px;
+    background-image: url(./assets/imagenes/fotoComodin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.comodin-frase{
+    text-align: center;
+    position: absolute;
+    width: 288px;
+    height: 26px;
+    margin-top: 64px;
+    left: calc(50% - 144px);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: white;
+}
