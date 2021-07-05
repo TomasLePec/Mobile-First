@@ -148,7 +148,24 @@ header img{
     margin-top: 24px;
 }
 
+.transition-scroll{
+    max-width: 100%;
+    min-width: 320px;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
+    
+}
+
+.transition-tabla{
+    scroll-snap-align: center;
+    min-width: 320px;
+    width: 100%;
+}
+
 .transition-tabla-container{
+    
     width: 235px;
     height: 194px;
     margin-left: calc(50% - 95px);
@@ -157,6 +174,15 @@ header img{
     align-items: flex-start;
     margin-top: 48px;
 }
+
+.tabla-container-tittle-comisiones{
+    color: var(--secondary-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    margin-left: 12px;
+}
+
 
 .tabla-container-tittle{
     font-size: 1.8rem;
@@ -241,6 +267,29 @@ header img{
     font-family: 'Inter', sans-serif;
 
 }
+
+.transition-tabla-fecha-comisiones{
+    display: inline-block;
+    width: 173px;
+    height: 31px;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.transition-tabla-fecha-comisiones p{
+    color: var(--warm-blackPlus);
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.transition-scroll{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
+}
+
 
 .beneficios{
     width: 100%;
@@ -403,20 +452,25 @@ header img{
 .planes-contenedor-tarjeta{
     scroll-snap-align: center;
     position: relative;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    width: 190px;
-    min-width: 190px;
-    height: 247px;
-    border-radius: 8px;
-    background-color: white;
+    width: 100%;
+    min-width: 320px;
+    height: 260px;
     margin-top: 50px;
     margin-bottom: 64px;
     text-align: center;
     margin: 0 8px;
+    background-color: var(--off-white);
 }
 
 .plan-info-contenedor{
-    width: 100%;
+    width: 190px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+    margin-right: auto;
+    height: 247px;
+    margin-left: auto;
+
 }
 
 .planes-contenedor-tarjeta-recomendado{
