@@ -21,6 +21,9 @@ Otros --> reglas CSS y más */
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 html{
     font-size: 62.5%;
@@ -353,4 +356,185 @@ header img{
     line-height: 2.6rem;
     font-weight: 700;
     color: white;
+}
+
+.planes{
+    height: 537px;
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--off-white);
+    text-align: center;
+    
+}
+
+.planes-titulo{
+    padding-top: 64px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+    text-align: center;
+
+}
+
+.planes-subtitulo{
+    width: 288px;
+    height: 36px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.planes-contenedor-slider{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+
+.planes-contenedor-tarjeta{
+    scroll-snap-align: center;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    width: 190px;
+    min-width: 190px;
+    height: 247px;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 64px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.plan-info-contenedor{
+    width: 100%;
+}
+
+.planes-contenedor-tarjeta-recomendado{
+    position: absolute;
+    width: 101px;
+    height: 31px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    color: white;
+    font-weight: 700;
+    top: -15.5px;
+    left: calc(50% - 50.5px);
+    
+}
+
+.plan-info-nombre{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: black;
+    padding-top: 31px;
+
+
+}
+
+.plan-info-precio{
+    width: 77px;
+    height: 56px;
+    margin-top: 8px;
+    font-size: 5.2rem;
+    line-height: 6.293rem;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.plan-info-precio span{
+    width: 8px;
+    height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    color: #363636;
+    font-weight: 500;
+    vertical-align: 31px;
+    padding: 5px;
+}
+
+.plan-info-descripcion{
+    width: 158px;
+    height: 30px;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    color: #757575;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.plan-info-boton{ 
+    display: flex;
+    width: 151px;
+    height: 48px;
+    padding: 15px;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    color: var(--warm-black);
+    font-weight: 700;
+    border-radius: 4px;
+    border: 2px solid var(--bitcoin-orange);
+    background-color: var(--off-white);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.plan-info-boton span{
+    width: 24px;
+    height: 24px;
+    background-image: url(./assets/icons/rightarrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer-hipervinculos{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-hipervinculos a{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin: 4px 0;
+}
+
+.footer-logo img{
+    width: 64px;
+    height: 50px;
 }
